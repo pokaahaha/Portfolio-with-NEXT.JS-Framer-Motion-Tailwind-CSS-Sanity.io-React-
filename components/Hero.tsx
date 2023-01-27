@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
         src="https://klike.net/uploads/posts/2021-12/1638345150_3.jpg"
         alt=""
       />
-      <div>
+      <div className='z-20'>
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
         </h2>
