@@ -4,22 +4,24 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import WorkExperience from "@/components/WorkExperience";
 import Skills from "@/components/Skills";
-import Projects from '@/components/Projects';
+import Projects from "@/components/Projects";
+import ContactMe from "@/components/ContactMe";
 export default function Home() {
   return (
     <>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
+       overflow-y-scroll overflow-x-hidden z-0">
         <Head>
           <title>Portfolio App</title>
         </Head>
         {/* Header */}
         <Header />
         {/* Hero */}
-        <section id="hero" className="snap-center">
+        <section id="#hero" className="snap-center">
           <Hero />
         </section>
         {/* About */}
-        <section id="about" className="snap-center">
+        <section id="#about" className="snap-center">
           <About />
         </section>
         {/* Experience */}
@@ -31,9 +33,13 @@ export default function Home() {
           <Skills />
         </section>
         {/* Projects */}
-        <section id='projects' className='snap-start'>
-          <Projects /> </section>
+        <section id="#projects" className="snap-start">
+          <Projects />{" "}
+        </section>
         {/* Contacts */}
+        <section id="#contact" className="snap-start">
+          <ContactMe />
+        </section>
       </div>
     </>
   );
