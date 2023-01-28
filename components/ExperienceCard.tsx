@@ -46,11 +46,11 @@ const ExperienceCard = (props: Props) => {
         <p className="uppercase py-5 text-gray-300">Started work... - Ended</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points Summary points Summary points Summary points</li>
-          <li>Summary points Summary points Summary points Summary points</li>
-          <li>Summary points Summary points Summary points Summary points</li>
-          <li>Summary points Summary points Summary points Summary points</li>
-          <li>Summary points Summary points Summary points Summary points</li>
+          <li>Summary points Summary points </li>
+          <li>Summary points Summary points </li>
+          <li>Summary points Summary points </li>
+          <li>Summary points Summary points </li>
+          <li>Summary points Summary points </li>
         </ul>
       </div>
     </article>

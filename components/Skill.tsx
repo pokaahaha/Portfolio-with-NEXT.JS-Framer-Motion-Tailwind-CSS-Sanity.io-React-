@@ -15,7 +15,7 @@ const Skill = ({ directionLeft }: Props) => {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgVF1dospej2VMDF0sb-TuNCYudETDT6UKVQ&usqp=CAU"
+        src="https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg"
         className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32
       xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
